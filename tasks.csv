@@ -1,0 +1,6 @@
+severity,description,id,title,assignedTo,status
+LOW,ceva,0724ec31-f945-4484-af7c-4bec324ee9d3,ABCDE,Claudia,CLOSED
+NORMAL,hihi,e5b8f46a-e855-48f5-bc59-9e46085c310c,two,Ioan,CLOSED
+NORMAL,hihi,4d661560-ebc6-48da-91ff-2b5b5211e6b3,MyTitle5,Ioan,CLOSED
+NORMAL,hihi,47030065-1d20-4dc1-b8cc-9fdc1929b8b8,one,Ioan,CLOSED
+LOW,ABC,29f17b85-f56f-4ec4-9a23-a3eb0d4becb2,MyTitle,Vasile,CLOSED

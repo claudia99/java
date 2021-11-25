@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tasks>
+    <task>
+        <description>ceva</description>
+        <id>0724ec31-f945-4484-af7c-4bec324ee9d3</id>
+        <title>ABCDE</title>
+        <assignedTo>Claudia</assignedTo>
+    </task>
+    <task>
+        <description>hihi</description>
+        <id>e5b8f46a-e855-48f5-bc59-9e46085c310c</id>
+        <title>two</title>
+        <assignedTo>Ioan</assignedTo>
+    </task>
+    <task>
+        <description>hihi</description>
+        <id>4d661560-ebc6-48da-91ff-2b5b5211e6b3</id>
+        <title>MyTitle5</title>
+        <assignedTo>Ioan</assignedTo>
+    </task>
+    <task>
+        <description>hihi</description>
+        <id>47030065-1d20-4dc1-b8cc-9fdc1929b8b8</id>
+        <title>one</title>
+        <assignedTo>Ioan</assignedTo>
+    </task>
+    <task>
+        <description>ABC</description>
+        <id>29f17b85-f56f-4ec4-9a23-a3eb0d4becb2</id>
+        <title>MyTitle</title>
+        <assignedTo>Vasile</assignedTo>
+    </task>
+</tasks>
