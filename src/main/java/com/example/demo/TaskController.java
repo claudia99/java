@@ -271,24 +271,24 @@ public class TaskController {
 
             for (Object item : items) {
                 if (format.toLowerCase().equals("csv")) {
-                    List ceva = Arrays.asList(item.toString().replace("{", "").split("="));
-                    String[] cevaa = ceva.toString().replace("}]", "").split(", ");
+                    List list = Arrays.asList(item.toString().replace("{", "").split("="));
+                    String[] csv = list.toString().replace("}]", "").split(", ");
                     int current = 1;
-                    int size = cevaa.length;
+                    int size = csv.length;
                     for (int i = 0; i < size; i++) {
-                        cevaa[i] = cevaa[current];
+                        csv[i] = csv[current];
                         size--;
                         current = current + 2;
                     }
-                    csvPrinter.printRecord(Arrays.asList(cevaa).subList(0, size));
+                    csvPrinter.printRecord(Arrays.asList(csv).subList(0, size));
                     csvPrinter.flush();
                 }
 
                 if (format.toLowerCase().equals("xml")) {
-                    List cevaxml = Arrays.asList(item.toString().replace("{", "").split(", "));
+                    List xml = Arrays.asList(item.toString().replace("{", "").split(", "));
                     Element task = document.createElement("task");
                     root.appendChild(task);
-                    for(Object it:cevaxml) {
+                    for(Object it:xml) {
                         String first, second;
                         List firstSecond = Arrays.asList(it.toString().replace("}","").split("="));
                         first = firstSecond.get(0).toString();
